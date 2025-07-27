@@ -1,1 +1,21 @@
-# Ignore Python, Jupyter, and OS artifacts
+# Ignore Jupyter Notebook checkpoints
+Notebooks/.ipynb_checkpoints/
+
+# Ignore large data files if you have any
+data/
+Data/
+*.csv
+*.tsv
+
+# Ignore typical Python and system files
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environments
+.env
+.venv/
+env/
+venv/
